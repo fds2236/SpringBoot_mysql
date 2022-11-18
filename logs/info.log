@@ -1,0 +1,35 @@
+[2022-11-17 14:32:59.994] [INFO ] [restartedMain] com.shop.ShopApplication Starting ShopApplication using Java 11.0.15 on DESKTOP-68HAUHH with PID 6916 (C:\Users\user1\Desktop\shop\target\classes started by user1 in C:\Users\user1\Desktop\shop)
+[2022-11-17 14:32:59.995] [INFO ] [restartedMain] com.shop.ShopApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:33:00.042] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-17 14:33:00.042] [INFO ] [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-17 14:33:00.585] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:33:00.628] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:33:01.276] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8211 (http)
+[2022-11-17 14:33:01.286] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8211"]
+[2022-11-17 14:33:01.287] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 14:33:01.287] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 14:33:01.367] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 14:33:01.367] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1318 ms
+[2022-11-17 14:33:01.396] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:33:01.686] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:33:01.696] [INFO ] [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kh_db?userUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul'
+[2022-11-17 14:33:01.845] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:33:01.898] [INFO ] [restartedMain] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:33:02.070] [INFO ] [restartedMain] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:33:02.191] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:33:03.593] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:33:03.601] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:33:03.646] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:33:03.878] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:33:04.147] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 14:33:04.155] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8211"]
+[2022-11-17 14:33:04.171] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8211 (http) with context path ''
+[2022-11-17 14:33:04.178] [INFO ] [restartedMain] com.shop.ShopApplication Started ShopApplication in 4.635 seconds (JVM running for 5.131)
+[2022-11-17 14:50:33.260] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 14:50:33.296] [INFO ] [Thread-5] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8211"]
+[2022-11-17 14:50:33.297] [INFO ] [Thread-5] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 14:50:33.303] [INFO ] [Thread-5] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8211"]
+[2022-11-17 14:50:33.305] [INFO ] [Thread-5] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8211"]
+[2022-11-17 14:50:33.307] [INFO ] [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:50:33.310] [INFO ] [Thread-5] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:50:33.319] [INFO ] [Thread-5] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
